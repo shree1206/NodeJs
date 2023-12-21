@@ -48,3 +48,7 @@ Q7. Is it possible to load specific function of non global module?
 ANS: Yes,  We can.
 Example:  const fs = require('fs').writeFileSync;
 fs('Hello.txt', 'This is test data');
+
+==================================================================
+Q8. How use import statement in nodeJS?
+ANS: In the package.json file add “type” : “module”. Adding this enables ES6 modules.
