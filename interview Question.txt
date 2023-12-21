@@ -1,0 +1,29 @@
+==================================================================
+Q1. what is node js?
+
+1. Node JS is not a programming language.
+2. It is a server environment which runs on server.
+3. It helps to run javascript on server.
+
+4. JavaScript  runs on client side and NodeJS runs on server side.
+   NodeJS can connect with database.
+
+5. Node JS is maily uses to make API and API will be super fast in performance.
+
+6. nodeJS uses V8 engine to run javascript code on server and passes the results.
+
+==================================================================
+Q2. Is console.log() same in browser and nodeJS ?
+ANS: No. In nodeJS It is a module while in JavaScript It is a function.
+
+==================================================================
+Q3. How we filter specific value from an array?
+ANS: using filter function
+filter function helps to filter the values only from array. 
+
+const arr = [1,2,3,4,5];
+let res = arr.filter((item)=>{
+return item > 4;
+});
+console.log(res);
+output: [ 4, 5 ]
