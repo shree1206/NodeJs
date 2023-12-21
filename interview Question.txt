@@ -27,3 +27,24 @@ return item > 4;
 });
 console.log(res);
 output: [ 4, 5 ]
+
+==================================================================
+Q4. What is core module?
+ANS: Built-In Module of any programming language. Ex.: fileSystem, console, Buffer, Http
+type type:
+a). Global: no need to import like: console, __dirname, __filename
+b). Non Global: need to import like: fs
+
+==================================================================
+Q5. Is it mandatory to import the module at the top of the file?
+ANS: No. we can use any where in code.
+
+==================================================================
+Q6. Is it mandatory to use the variable name as module name?
+ANS: No, We can use any name as variable.
+
+==================================================================
+Q7. Is it possible to load specific function of non global module?
+ANS: Yes,  We can.
+Example:  const fs = require('fs').writeFileSync;
+fs('Hello.txt', 'This is test data');
