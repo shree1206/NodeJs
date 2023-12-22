@@ -87,3 +87,8 @@ Q16. what is .gitignore file?
 ANS: By using this file we can ignore any files which we dont need on github repository.
 # dependencies
 /node_modules
+
+==================================================================
+Q17. what is nodemon module?
+ANS: It restarts the node application whenever changes are detected. It auto loads the application
+CMD: npm install nodemon -g
