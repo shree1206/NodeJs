@@ -75,5 +75,15 @@ Q13. How we create package.json file?
 ANS: npm init
 
 ==================================================================
-Q11. How we install external package?
+Q14. How we install external package?
 ANS: npm i colors
+
+==================================================================
+Q15. what is node_modules, How we install, if it is deleted? 
+ANS: node_modules contains all third party packages. using npm install command we can re install on the basis of the package.json file.
+
+==================================================================
+Q16. what is .gitignore file?
+ANS: By using this file we can ignore any files which we dont need on github repository.
+# dependencies
+/node_modules
