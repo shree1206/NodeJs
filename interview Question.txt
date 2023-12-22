@@ -52,3 +52,15 @@ fs('Hello.txt', 'This is test data');
 ==================================================================
 Q8. How use import statement in nodeJS?
 ANS: In the package.json file add “type” : “module”. Adding this enables ES6 modules.
+
+==================================================================
+Q9. Function as a parameter?
+ANS: http.createServer((req,res)=>{})
+
+==================================================================
+Q10. arrow function?
+ANS: ()=>{}
+
+==================================================================
+Q11. which module handel the request and response?
+ANS: http module
