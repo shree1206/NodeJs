@@ -92,3 +92,14 @@ ANS: By using this file we can ignore any files which we dont need on github rep
 Q17. what is nodemon module?
 ANS: It restarts the node application whenever changes are detected. It auto loads the application
 CMD: npm install nodemon -g
+
+==================================================================
+Q.18  JSON. stringify()?
+ANS: The JSON. stringify() method converts JavaScript objects into strings. 
+When sending data to a web server the data has to be a string.
+
+==================================================================
+
+Q.19 JSON.parse()?
+ANS: When receiving data from a web server, the data is always a string. 
+Parse the data with JSON.parse() , and the data becomes a JavaScript object.
