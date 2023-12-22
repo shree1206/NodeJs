@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "In this project I will cover all concepts of NodeJS",
   "main": "index.js",
-  "type": "module",
+  "type": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "nodemon": "nodemon useColorPackage.js"
