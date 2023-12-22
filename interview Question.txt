@@ -64,3 +64,16 @@ ANS: ()=>{}
 ==================================================================
 Q11. which module handel the request and response?
 ANS: http module
+
+==================================================================
+Q12. what is package.json file?
+ANS: It is a file which contains our project details like:
+     name, version, dependencied, scripts, repository
+
+==================================================================
+Q13. How we create package.json file?
+ANS: npm init
+
+==================================================================
+Q11. How we install external package?
+ANS: npm i colors

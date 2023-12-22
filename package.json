@@ -1,3 +1,28 @@
 {
-  "type": "module"
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "In this project I will cover all concepts of NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shree1206/NodeJs.git"
+  },
+  "keywords": [
+    "vaibhav",
+    "repo",
+    "nodejs"
+  ],
+  "author": "vaibhav chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shree1206/NodeJs/issues"
+  },
+  "homepage": "https://github.com/shree1206/NodeJs#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
