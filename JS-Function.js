@@ -60,3 +60,18 @@ var sum = arr10.reduce((accumulator, currentValue) => {
     return accumulator + currentValue
 }, 0);
 console.log(sum);
+
+
+//11. indexOf()
+//returns the position of the first occurrence of a value in a string
+let text = "Hello world, welcome to the universe.";
+let res11 = text.indexOf("world");
+console.log(res11);
+
+//12. charAt() 
+//returns the character at a specified index (position) in a string.
+let text2 = "HELLO WORLD";
+let anyPos = text2.charAt(1);
+let lastPos = text2.charAt(text2.length-1);
+console.log(anyPos);
+console.log(lastPos);
